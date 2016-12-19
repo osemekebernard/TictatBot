@@ -1,0 +1,31 @@
+case "What is the name of your father?" :
+            $botMessage="Chuks, David and Tobiloba";
+file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$botMessage);
+            break;
+
+            case "what is the name of your father?" :
+            $botMessage="Chuks, David and Tobiloba";
+file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$botMessage);
+            break;
+
+            case "WHAT IS THE NAME OF YOUR FATHER?" :
+            $botMessage="Chuks, David and Tobiloba";
+file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$botMessage);
+            break;
+            
+            
+            
+       case "What's up?":
+            $botMessage="hey, nothing much...";
+file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$botMessage);
+            break;
+            
+            case "what's up?":
+            $botMessage="hey, nothing much...";
+file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$botMessage);
+            break;
+            
+            case "WHAT'S UP?":
+            $botMessage="hey, nothing much...";
+file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$botMessage);
+            break;      
