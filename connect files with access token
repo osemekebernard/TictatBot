@@ -1,0 +1,10 @@
+<?php
+  $page = $_SERVER['http://localhost/tictat_bot/deploymessages.php'];
+$sec = "45";
+     //accepting variables from the text box on our site
+  //this feature is also used for manually sending messages to the intended user 
+
+ //saving the bot token into the variable $botToken
+$botToken = "305947245:AAGKZ7ITmANzyGfaGfE5tj4Jr2n52ewgE";
+//instantiating the url for telegram
+$website = "https://api.telegram.org/bot".$botToken;
