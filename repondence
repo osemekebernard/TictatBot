@@ -1,0 +1,51 @@
+ case "Good morning":
+            $botMessage="Good morning";
+file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$botMessage.$teleuser);
+            break;
+
+            case "good morning":
+            $botMessage="Good morning ";
+file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$botMessage.$teleuser);
+            break;
+
+            case "GOOD MORNING":
+            $botMessage="Good morning";
+file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$botMessage.$teleuser);
+            break;
+/////////////////////////////////////////////////////////////////////////////////////////
+
+            case "Hi":
+            $botMessage="hello ";
+file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$botMessage.$teleuser);
+            break;
+             
+             case "hi":
+            $botMessage="hello ";
+file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$botMessage.$teleuser);
+            break;
+
+            case "HI":
+            $botMessage="hello ";
+file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$botMessage.$teleuser);
+            break;
+
+////////////////////////////////////////////////////////////////////////////////////
+            case "GOOD AFTERNOON":
+            $botMessage="Good afternoon";
+file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$botMessage.$teleuser);
+            break;
+
+            case "good afternoon":
+            $botMessage="Good morning";
+file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$botMessage.$teleuser);
+            break;
+
+            case "Good afternoon":
+            $botMessage="Good afternoon";
+file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$botMessage.$teleuser);
+            break;
+///////////////////////////////////////////////////////////////////////////////////////
+             default:
+           $botMessage="Ooosp, its either I do not have knowledge on that yet or please check your spelling";
+file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$botMessage." ".$teleuser);
+            break;
