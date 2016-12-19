@@ -1,0 +1,18 @@
+$update = file_get_contents($website."/getupdates");
+$update = json_decode($update, TRUE);
+//getting the last array locaton of the recieved message
+$current_update =end($update["result"]);
+//getting the chat id of the user
+$chatId = $current_update["message"]["chat"]["id"]; 
+//recieving input message from the user and saving it in a variable
+$newmessage=$current_update["message"]["text"];
+
+$teleuser=$current_update["message"]["from"]["first_name"];  
+//file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$messageme); 
+  
+   //checking the text recieved from the user and giving it an associated message
+   switch($newmessage) {
+        case "/start":
+            $botMessage="Bot Enabled";
+file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$botMessage);
+            break;
