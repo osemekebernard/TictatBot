@@ -1,0 +1,32 @@
+  case "/new":
+            $botMessage=urlencode("Ford Gt8 is the new ish .\n \n \n Ford gT8 was developed by Henry Ford. \n He died at age 70.");
+file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$botMessage." ".$teleuser);
+            break;
+           case "hi":
+           $botMessage="hello dear!";
+file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$botMessage);
+            break;
+        case "hello":
+            $botMessage="hi";
+file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$botMessage);
+            break;
+         case "Hello":
+            $botMessage="hi";
+file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$botMessage);
+            break;
+case "bye":
+            $botMessage="nice chating you";
+            file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$botMessage);
+            break;
+case "how old are you?":
+            $botMessage="I am 25 year old";
+file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$botMessage);
+        break;
+case "/help":
+             $botMessage="check the symbol / near your text box";
+file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$botMessage);
+            break;
+        case "/go":
+            $botMessage="hello ";
+            file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$botMessage.$teleuser);
+            break;
